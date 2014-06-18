@@ -2,7 +2,7 @@
   "name": "grunt-photobox",
   "description": "Plugin to prevent your project of broken layout via screenshot photo sessions of your site.",
   "version": "0.8.0",
-  "homepage": "https://github.com/stefanjudis/grunt-photoBox",
+  "homepage": "https://github.com/davidosomething/grunt-photoBox",
   "author": {
     "name": "stefan judis",
     "email": "stefanjudis@gmail.com"
@@ -15,19 +15,23 @@
     {
       "name": "Christian Häringer",
       "email": "christian@haeringer.net"
+    },
+    {
+      "name": "David O'Trakoun",
+      "email": "me@davidosomething.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanjudis/grunt-photobox.git"
+    "url": "git://github.com/davidosomething/grunt-photobox.git"
   },
   "bugs": {
-    "url": "https://github.com/stefanjudis/grunt-photobox/issues"
+    "url": "https://github.com/davidosomething/grunt-photobox/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/stefan/grunt-photobox/blob/master/LICENSE-MIT"
+      "url": "https://github.com/davidosomething/grunt-photobox/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -38,7 +42,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "phantomjs": "~1.9.0"
+    "phantomjs": "davidosomething/phantomjs"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.8.0",
