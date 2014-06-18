@@ -10,8 +10,7 @@
 
 var fs           = require( 'fs' ),
     path         = require( 'path' ),
-    phantomjs    = require( 'phantomjs' ),
-    phantomPath  = phantomjs.path;
+    phantomPath  = './node_modules/grunt-photobox/tasks/bin/phantomjs';
 
 /**
  * Constructor for PhotoBox
@@ -529,6 +528,7 @@ PhotoBox.prototype.startPhotoSession = function() {
     }, function( err, result, code ) {
       this.photoSessionCallback( err, result, code, picture );
     }.bind( this ) );
+
   }.bind( this ) );
 };
 
